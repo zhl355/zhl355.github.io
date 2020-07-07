@@ -1,0 +1,15 @@
+# jemdoc: menu{MENU}{publications.html}
+==Zhichao Li
+
+== Conference Proceedings
+. *Fast and Safe Path-Following Control using a State-Dependent Directional Metric* \n
+Z. Li, O. Aslan and N. Atanasov \n
+International Conference on Robotics and Automation (ICRA), Paris, France, 2020.
+\[[publications/ICRA2020_rg_sddm.pdf pdf]\] \[[https://zhl355.github.io/ICRA2020_RG_SDDM/ link]\]
+
+
+== Workshop Papers
+. *VC-bots: a vehicular cloud computing testbed with mobile robots*  \n
+D. Lu, Z. Li, and et. al.  \n
+First international workshop on internet of vehicles and vehicles of internet, 2016. 
+\[[publications/2016_VC_bots.pdf pdf]\] 

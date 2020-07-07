@@ -1,0 +1,36 @@
+# jemdoc: menu{MENU}{index.html}
+==Zhichao Li
+
+~~~
+{}{img_left}{photos/Zhichao.jpg}{alt text}{200}{300}
+Zhichao Li  ~~~~~~   	\n
+PhD student					\n 
+Electrical and Computer Engineering Department 		\n
+Contextual Robotics Institute						\n
+University of California, San Diego					\n
+
+~~~
+
+== Biography
+I am a fourth-year Ph.D. student in [http://erl.ucsd.edu/ Existential Robotics Laboratory], [http://www.ece.ucsd.edu/ ECE Department] and [https://contextualrobotics.ucsd.edu/ CRI], [http://www.ucsd.edu/ UC San Diego]. \n
+My advisor is [https://natanaso.github.io/ Prof. Nikolay Atanasov].\n
+I received my M.S. degree from [https://ecee.engineering.asu.edu/ School of Electrical, Computer and Energy Engineering], [https://www.asu.edu/ Arizona State University] in 2016.  
+I received my B.Eng. degree from [http://hangtian.nwpu.edu.cn/English.htm School of Astronatutics], [https://en.nwpu.edu.cn/ Northwestern Polytechnical University] in 2013.  
+
+== Research Interests
+- Robotics
+-- Mobile Robot Control  
+-- Motion planning 
+- Control Theory 
+-- Reference Governor Safe Control
+-- Optimization
+
+== News
+- *Jun 2020* ~~~ I TAed [https://natanaso.github.io/ece276b/ ECE 276B]: Planning & Learning in Robotics, 2020.
+- *May 2020* ~~~ I presented our work on [https://zhl355.github.io/ICRA2020_RG_SDDM/ Directional Reference Governor Based Safe Control] at [https://www.icra2020.org/ ICRA 2020] in Paris, France (Virtual).
+- *Jan 2019* ~~~ I TAed [https://natanaso.github.io/ece276b/ ECE 276B]: Planning & Learning in Robotics, 2019.
+- *Sep 2016* ~~~ I started my Ph.D. journey at [https://ucsd.edu/ UC San Diego].
+
+== Contact
+Office: 6400 Atkinson Hall, 9500 Gilman Dr, La Jolla, CA 92093 \n
+E-mail: zhichaoli AT ucsd.edu\n
