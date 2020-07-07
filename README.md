@@ -12,9 +12,14 @@ Personal Website
 
 ## Use `syncerucsd.sh` to sync website to UCSD personal webpage
 
-```sh
-./syncerucsd.sh
-```
+1. Initialize your personal webiste (Only done once)
+Upload content to UCSD's personal website server follow instruction at [here](https://ucsdservicedesk.service-now.com/its?id=kb_article_view&sysparm_article=KB0030548&sys_kb_id=4f93c6aedb4b0c504cd8f06e0f9619b1)
+
+2. Update your website using script
+
+    ```sh
+    ./syncerucsd.sh
+    ```
 
 ## Reference
 
