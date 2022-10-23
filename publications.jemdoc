@@ -1,7 +1,19 @@
 # jemdoc: menu{MENU}{publications.html}
 ==Zhichao Li
 
+== Journals
+. *Robust and Safe Autonomous Navigation for Systems with Learned SE(3) Hamiltonian Dynamics* \n
+Z. Li, T. Duong and N. Atanasov \n
+IEEE Open Journal of Control Systems (OJCSYS), 2022.
+\[[https://natanaso.github.io/ref/Li_HamiltonianGovernor_OJCSYS22.pdf pdf]\]
+
 == Conference Proceedings
+
+. *Safe Autonomous Navigation for Systems with Learned SE(3) Hamiltonian Dynamics* \n
+Z. Li, T. Duong and N. Atanasov \n
+Learning for Dynamics and Control (L4DC), Palo Alto, USA, 2022.
+\[[https://natanaso.github.io/ref/LiDuong_HamiltonianGovernor_L4DC22.pdf pdf]\] \[[https://thaipduong.github.io/refgovham/ link]\]
+
 . *Fast and Safe Path-Following Control using a State-Dependent Directional Metric* \n
 Z. Li, O. Aslan and N. Atanasov \n
 International Conference on Robotics and Automation (ICRA), Paris, France, 2020.
