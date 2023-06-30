@@ -13,22 +13,26 @@ University of California, San Diego					\n
 
 == Biography
 I am a Ph.D. Candidate in the [http://www.ece.ucsd.edu/ ECE Department] at [http://www.ucsd.edu/ UC San Diego]. 
-I work at [http://erl.ucsd.edu/ Existential Robotics Laboratory], advised by [https://natanaso.github.io/ Prof. Nikolay Atanasov].\n
+I work at [http://erl.ucsd.edu/ Existential Robotics Laboratory], advised by [https://natanaso.github.io/ Prof. Nikolay Atanasov].
 I received my M.S. degree from [https://ecee.engineering.asu.edu/ School of Electrical, Computer and Energy Engineering], [https://www.asu.edu/ Arizona State University] in 2016.  
-I received my B.Eng. degree from [http://hangtian.nwpu.edu.cn/English.htm School of Astronatutics], [https://en.nwpu.edu.cn/ Northwestern Polytechnical University] in 2013.  
+I received my B.Eng. degree from [http://hangtian.nwpu.edu.cn/English.htm School of Astronatutics], [https://en.nwpu.edu.cn/ Northwestern Polytechnical University] in 2013. 
 
 == Research Interests
 - Robotics
 -- Mobile Robot Control  
--- Motion planning 
+-- Motion Planning 
+-- Safety Metric Design
 - Control Theory 
--- Reference Governor Safe Control
+-- Reference Governor Safe Tracking
+-- Control Barrier Function
 -- Optimization
 
 == News
-- *Aug 2022* ~~~ Our paper on [https://natanaso.github.io/ref/Li_HamiltonianGovernor_OJCSYS22.pdf Robust and Safe Autonomous
+- *Mar 2023* ~~~ Our paper on [http://erl.ucsd.edu/ref/Li_GCBF_Automatica23.pdf Governor-parameterized barrier function for safe output tracking with locally sensed
+constraints] has been accepted to [https://www.sciencedirect.com/journal/automatica Automatica].
+- *Aug 2022* ~~~ Our paper on [http://erl.ucsd.edu/ref/Li_HamiltonianGovernor_OJCSYS22.pdf Robust and Safe Autonomous
 Navigation for Systems with Learned SE(3) Hamiltonian Dynamics] has been accepted to [http://ieeecss.org/publication/open-journal-control-systems/special-sections OJ-CSYS].
-- *Jun 2022* ~~~ I started my internship at [https://braincorp.com/ Brain Corp]. 
+- *Sep 2022* ~~~ I finished my internship at [https://braincorp.com/ Brain Corp]. 
 - *Jun 2022* ~~~ I presented our work on [https://thaipduong.github.io/refgovham/ Safe Navigation with Learned SE(3) Hamiltonian Dynamics] at [https://l4dc.stanford.edu/ L4DC 2022] in Palo Alto, USA
 - *Jun 2022* ~~~ I TAed [https://natanaso.github.io/ece276b/ ECE 276B]: Planning & Learning in Robotics, 2022.
 - *Jun 2020* ~~~ I TAed [https://natanaso.github.io/ece276b/ ECE 276B]: Planning & Learning in Robotics, 2020.

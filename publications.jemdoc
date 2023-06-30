@@ -2,22 +2,28 @@
 ==Zhichao Li
 
 == Journals
+
+. *Governor-Parameterized Barrier Function for Safe Output Tracking with Locally Sensed Constraints* \n
+Z. Li and N. Atanasov \n
+Automatica, 2023.
+\[[http://erl.ucsd.edu/ref/Li_GCBF_Automatica23.pdf pdf]\]
+
 . *Robust and Safe Autonomous Navigation for Systems with Learned SE(3) Hamiltonian Dynamics* \n
 Z. Li, T. Duong and N. Atanasov \n
 IEEE Open Journal of Control Systems (OJCSYS), 2022.
-\[[https://natanaso.github.io/ref/Li_HamiltonianGovernor_OJCSYS22.pdf pdf]\]
+\[[http://erl.ucsd.edu/ref/Li_HamiltonianGovernor_OJCSYS22.pdf pdf]\]
 
 == Conference Proceedings
 
 . *Safe Autonomous Navigation for Systems with Learned SE(3) Hamiltonian Dynamics* \n
 Z. Li, T. Duong and N. Atanasov \n
 Learning for Dynamics and Control (L4DC), Palo Alto, USA, 2022.
-\[[https://natanaso.github.io/ref/LiDuong_HamiltonianGovernor_L4DC22.pdf pdf]\] \[[https://thaipduong.github.io/refgovham/ link]\]
+\[[http://erl.ucsd.edu/ref/LiDuong_HamiltonianGovernor_L4DC22.pdf pdf]\] \[[https://thaipduong.github.io/refgovham/ website]\]
 
 . *Fast and Safe Path-Following Control using a State-Dependent Directional Metric* \n
 Z. Li, O. Aslan and N. Atanasov \n
 International Conference on Robotics and Automation (ICRA), Paris, France, 2020.
-\[[publications/ICRA2020_rg_sddm.pdf pdf]\] \[[https://zhl355.github.io/ICRA2020_RG_SDDM/ link]\]
+\[[http://erl.ucsd.edu/ref/Li_SafeControl_ICRA20.pdf pdf]\] \[[https://zhl355.github.io/ICRA2020_RG_SDDM/ website]\]
 
 
 == Workshop Papers

@@ -7,7 +7,7 @@ Personal Website
 ## Usage of jemdoc
 
 (Hint for myself:
-(mathJax+jemdoc)$ ./jemdoc -c mysite.conf xxx  
+(mathJax+jemdoc)$ ./jemdoc -c mysite.conf xxx.jemdoc
 (raw jemdoc) py2 $ python jemdoc.py index.jemdoc
 
 ## Use `syncerucsd.sh` to sync website to UCSD personal webpage
