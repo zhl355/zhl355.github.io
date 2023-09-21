@@ -107,7 +107,7 @@
                       <li class="hidden">[Jan 2023] I led safe control and planning ROS packages development on Jackal research platform at our lab.</li>
         
                       <li class="hidden">[Aug 2022] Our paper on <a href="http://erl.ucsd.edu/ref/Li_HamiltonianGovernor_OJCSYS22.pdf">Robust and Safe Navigation with Learned SE(3) Hamiltonian Dynamics </a> has been accepted to <a href="http://ieeecss.org/publication/open-journal-control-systems/special-sections"> OJ-CSYS. </a> </li>
-                      <li class="hidden">[Jun 2022] I started my internship at <a href="https://braincorp.com/"> Brain Corp </a> working on motion planning and control.</li>            
+                      <li class="hidden">[Jun 2022] I started my internship at <a href="https://braincorp.com/"> Brain Corp </a> working on motion planning and docking controller design.</li>            
                       <li class="hidden">[Jun 2022] I presented our work on <a href="https://thaipduong.github.io/refgovham/">Safe Navigation with Learned SE(3) Hamiltonian Dynamics</a> at <a href="https://l4dc.stanford.edu/"> L4DC 2022 </a>.</li>
                       <li class="hidden">[Jun 2022] I TA'ed <a href="https://natanaso.github.io/ece276b/">ECE276B: Planning &amp; Learning in Robotics</a>. </li>
         
@@ -161,11 +161,12 @@
     </tbody>
   </table>
   
-    <!-- Automatica G-PBF -->
+    <!-- Automatica 2023 G-PBF -->
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
       <tbody>
-        <td style="padding:5px;width:30%;vertical-align:middle">
-          <img src='images/gpbfAutomatica/gpbf_framework_automatica.png' width="300">
+        <td style="padding:5px;width:30%;vertical-align:middle;text-align: center;">
+          <img src='images/automatica23/ot30ICRA92.png' width="220">
+          <p style="text-align: center;">mobile robot with omnidirectional wheels</p>
         </td>
   
         <td style="padding:20px;width:80%;vertical-align:middle">
@@ -174,26 +175,26 @@
             </papertitle>
           </a>
           <br>
-          Zhichao Li, 
-          <a href="https://natanaso.github.io/">Nikolay Atanasov</a>
+          Zhichao Li, <a href="https://natanaso.github.io/">Nikolay Atanasov</a>
           <br>
-          <em>Accepted to Automatica 2023.</em><br>
-          <p></p>
-          <p>This paper considers output tracking with time-varying constraints, obtained from online sensor
-            measurements. We develop an safe output tracking controller using reference governor techniques with 
-            governor-parameterized barrier function (G-PBF). Safe and stabilitiy analysis is discussed carefully. 
-            We demonstrate our adaptive output-tracking controller on a feedback-linearizable system navigating in an unknown environment, 
-            where obstacle distances are measured online.</p>
+          <em>Accepted to Automatica, 2023.</em><br>
+          
+          <p>This paper considers output tracking with time-varying constraints, obtained from online sensor measurements. 
+            We develop a safe output tracking controller using reference governor techniques with governor-parameterized barrier function (G-PBF). 
+            Safe and stability analysis is discussed thoroughly.  
+            We demonstrate our adaptive output-tracking controller on a feedback-linearizable system navigating in an unknown environment,  
+            where obstacle distances are measured online.
+          </p>
         </td>
-        </tr>
       </tbody>
     </table>
 
-  <!-- Safe Flight SE(3) -->
+  <!-- OJCSYS 2022 Robust Safe Flight SE(3) -->
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
-      <td style="padding:20px;width:30%;vertical-align:top">
-        <img src='images/refgovham/gif/demo_forest.gif' width="300">
+      <td style="padding:20px;width:30%;vertical-align:middle;text-align: center;">
+        <img src='images/ojcsys22/warehouse3d_snapshot.png' width="220">
+        <p style="text-align: center;">hexarotor flying through warehouse</p>
       </td>
 
       <td style="padding:20px;width:80%;vertical-align:middle">
@@ -202,119 +203,65 @@
           </papertitle>
         </a>
         <br>
-        <strong>Zhichao Li*</strong>, <a href="https://thaipduong.github.io/"> Thai Duong* </a>,
+        <strong>Zhichao Li</strong>, <a href="https://thaipduong.github.io/"> Thai Duong </a>,
         <a href="https://natanaso.github.io/">Nikolay Atanasov</a>
         <br>
-        <em>Learning for Dynamics and Control (L4DC), 2022. *Equal contribution.</em><br>
-        <em>Journal version accepted to <a href="http://ieeecss.org/publication/open-journal-control-systems">OJ-CSYS
-            Special Issue: Intersection of Machine Learning with Control</a>, 2022, as invited paper.</em>
+        <em>Accepted to IEEE Open Journal of Control Systems, 2022</em>
         <br>
         <a href="https://thaipduong.github.io/refgovham/">website</a> /
-        <a href="https://thaipduong.github.io/refgovham/">video</a> /
-        <a href="https://arxiv.org/pdf/2112.04639.pdf">arXiv</a>
-        <p></p>
-        <p>This paper proposes techniques to learn the dynamics models of a mobile robot from trajectory data and
-          synthesize a tracking controller with safety and stability guarantees. Instead of a hand-derived dynamics
-          model, we use a dataset of state-control trajectories to train a translation-equivariant nonlinear Hamiltonian
-          model represented as a neural ordinary differential equation (ODE) network. The learned Hamiltonian model is
-          used to synthesize an energy-shaping passivity-based controller and derive conditions which guarantee safe
-          regulation to a desired reference pose. Finally, we enable adaptive tracking of a desired path, subject to
-          safety constraints obtained from obstacle distance measurements. Our safe adaptive controller is demonstrated
-          on a simulated hexarotor robot navigating in unknown complex environments.</p>
-      </td>
-      </tr>
-    </tbody>
-  </table>
-
-  <!-- Robust Safe Flight SE(3) -->
-  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-      <td style="padding:20px;width:30%;vertical-align:top">
-        <img src='images/hamadapt/gif/quadrotor/32/video_exp1_adaptive32.gif' width="300">
-        <br>
-        <img src='images/hamadapt/gif/quadrotor/32/exp1_adaptive_3d.gif' width="300">
-      </td>
-      <td style="padding:20px;width:80%;vertical-align:middle">
-        <a href="https://thaipduong.github.io/hamadapt/">
-          <papertitle>Adaptive Control of SE(3) Hamiltonian Dynamics with Learned Disturbance Features</papertitle>
-        </a>
-        <br>
-        <strong>Thai Duong</strong>,
-        <a href="https://natanaso.github.io/">Nikolay Atanasov</a>
-        <br>
-        <em>Accepted to L-CSS</em>, 2022.
-        <br>
-        <a href="https://thaipduong.github.io/hamadapt/">website</a> /
-        <a href="https://thaipduong.github.io/hamadapt/">video</a> /
-        <a href="https://arxiv.org/pdf/2109.09974.pdf">arXiv</a>
-        <p></p>
-        <p>This paper develops geometric adaptive control with a learned disturbance model for rigid-body systems, such
-          as ground, aerial, and underwater vehicles, that satisfy Hamilton's equations of motion over the SE(3)
-          manifold. Our design consists of an offline disturbance model identification stage, using a Hamiltonian-based
-          neural ordinary differential equation (ODE) network trained from state-control trajectory data, and an online
-          adaptive control stage, estimating and compensating the disturbances based on geometric tracking errors. We
-          demonstrate our adaptive geometric controller in trajectory tracking simulations of fully-actuated pendulum
-          and under-actuated quadrotor systems.</p>
-      </td>
-      </tr>
-
-    </tbody>
-  </table>
-
-
-  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-      <td style="padding:20px;width:30%;vertical-align:top">
-        <img src='images/se3hamdl/gif/trajtracking.gif' width="300">
-        <br>
-        <img src='images/se3hamdl/gif/tracking_3d.gif' width="300">
-        <br>
-        <img src='images/se3hamdl/gif/tracking_2d.gif' width="300">
-        <p>
-          <center> Trajectory tracking + learned dynamics</center>
+        <!-- <a href="https://thaipduong.github.io/refgovham/">video</a> / -->
+        <a href="https://arxiv.org/abs/2207.10840">arXiv</a>
+        
+        <p>This paper synthesize an energy-shaping passivity-based controller over an learned model and analyze its robustness to uncertainty.
+          We extend our design using a reference governor to achieve 3D safe tracking control. 
+          Considering the system energy level, model uncertainty bounds, and distance to safety violation, 
+          the governor generates desired poses in SE(3) that move along the reference path adaptively to guarantee robustness and safety. 
+          Our Hamiltonian dynamics learning and tracking control techniques are demonstrated on simulated hexarotor 
+          and quadrotor robots navigating in cluttered 3D environments.
         </p>
       </td>
-      <td style="padding:20px;width:80%;vertical-align:middle">
-        <a href="https://thaipduong.github.io/SE3HamDL/">
-          <papertitle>Hamiltonian-based Neural ODE Networks on the SE(3) Manifold For Dynamics Learning and Control
-          </papertitle>
-        </a>
-        <br>
-        <strong>Thai Duong</strong>,
-        <a href="https://natanaso.github.io/">Nikolay Atanasov</a>
-        <br>
-        <em>Robotics: Science and Systems (RSS)</em>, 2021.
-        <br>
-        <a href="https://thaipduong.github.io/SE3HamDL/">website</a> /
-        <a href="https://thaipduong.github.io/SE3HamDL/">video</a> /
-        <a href="https://arxiv.org/abs/2106.12782">arXiv</a>
-        <p></p>
-        <p>The dynamics of many robots, including ground, aerial, and underwater vehicles, are described in terms of
-          their SE(3) pose and generalized velocity, and satisfy conservation of energy principles. This paper proposes
-          a Hamiltonian formulation over the SE(3) manifold of the structure of a neural ordinary differential equation
-          (ODE) network to approximate the dynamics of a rigid body. In contrast to a black-box ODE network, our
-          formulation guarantees total energy conservation by construction. We develop energy shaping and damping
-          injection control for the learned, potentially underactuated SE(3) Hamiltonian dynamics to enable a unified
-          approach for stabiliziation and trajectory tracking with various platforms, including pendulum, rigid-body,
-          and quadrotor systems.</p>
-        <img src='images/se3hamdl/gif/data2.gif' width="180">
-        <img src='images/se3hamdl/gif/data11.gif' width="180">
-        <img src='images/se3hamdl/gif/data15.gif' width="180">
-        <br>
-        <img src='images/se3hamdl/gif/data14.gif' width="180">
-        <img src='images/se3hamdl/gif/data13.gif' width="180">
-        <img src='images/se3hamdl/gif/data3.gif' width="180">
-        <p>
-          <center>Data collection from manual flights</center>
-        </p>
-      </td>
-      </tr>
-
+      
     </tbody>
   </table>
 
+    <!-- L4DC 2022 Safe Flight SE(3) -->
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+      <tbody>
+        <td style="padding:20px;width:30%;vertical-align:top">
+          <img src='images/refgovham/gif/demo_forest.gif' width="220">
+          <p style="text-align: center;">hexarotor flying through forest</p>
+        </td>
+  
+        <td style="padding:20px;width:80%;vertical-align:middle">
+          <a href="https://thaipduong.github.io/refgovham/">
+            <papertitle>Safe Autonomous Navigation for Systems with Learned SE(3) Hamiltonian Dynamics 
+            </papertitle>
+          </a>
+          <br>
+          <strong>Zhichao Li*</strong>, <a href="https://thaipduong.github.io/"> Thai Duong* </a>,
+          <a href="https://natanaso.github.io/">Nikolay Atanasov</a> 
+          <br>
+          <em>Learning for Dynamics and Control (L4DC), 2022. *Equal contribution.</em><br>
+          <a href="https://thaipduong.github.io/refgovham/">website</a> /
+          <!-- <a href="https://thaipduong.github.io/refgovham/">video</a> / -->
+          <a href="https://arxiv.org/pdf/2112.04639.pdf">arXiv</a>
+          
+          <p>This paper proposes techniques to learn the dynamics models of a mobile robot from trajectory data and
+            synthesize a tracking controller with safety and stability guarantees. Instead of a hand-derived dynamics
+            model, we use a dataset of state-control trajectories to train a translation-equivariant nonlinear Hamiltonian
+            model represented as a neural ordinary differential equation (ODE) network. The learned Hamiltonian model is
+            used to synthesize an energy-shaping passivity-based controller and derive conditions which guarantee safe
+            regulation to a desired reference pose. Finally, we enable adaptive tracking of a desired path, subject to
+            safety constraints obtained from obstacle distance measurements. Our safe adaptive controller is demonstrated
+            on a simulated hexarotor robot navigating in unknown complex environments.</p>
+  
+        </td>
+        
+        </tr>
+      </tbody>
+    </table>
 
-  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
       <tr>
         <td style="padding:10px;width:100%;vertical-align:middle">
@@ -322,19 +269,19 @@
         </td>
       </tr>
     </tbody>
-  </table>
+  </table> -->
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
       <td style="padding:20px;width:30%;vertical-align:top">
-        <video width="300" muted autoplay loop>
+        <video width="220" muted autoplay loop>
           <source src="images/sbkm/sbkm_mapping.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
-        <video width="300" muted autoplay loop>
+        <video width="220" muted autoplay loop>
           <source src="images/sbkm/sbkm_vid3.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
-        <video width="300" muted autoplay loop>
+        <video width="220" muted autoplay loop>
           <source src="images/sbkm/sbkm_map.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -366,11 +313,11 @@
 
       <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
         <td style="padding:20px;width:30%;vertical-align:top">
-          <video width="300" muted autoplay loop>
+          <video width="220" muted autoplay loop>
             <source src="images/skm/skm_vid3.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-          <video width="300" muted autoplay loop>
+          <video width="220" muted autoplay loop>
             <source src="images/skm/skm_map3.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
@@ -401,7 +348,7 @@
       </tr>
     </tbody>
   </table>
-  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
       <tr>
         <td style="padding:10px;width:100%;vertical-align:middle">
@@ -409,13 +356,13 @@
         </td>
       </tr>
     </tbody>
-  </table>
+  </table> -->
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
       <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
         <td style="padding:20px;width:30%;vertical-align:top">
-          <img src='images/safenav/racecar_governor.png' width="300">
-          <video width="300" muted autoplay loop>
+          <img src='images/safenav/racecar_governor.png' width="220">
+          <video width="220" muted autoplay loop>
             <source src="images/safenav/safenav.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
