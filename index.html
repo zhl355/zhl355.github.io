@@ -260,15 +260,45 @@
         </tr>
       </tbody>
     </table>
+
+    
+    <!-- HJ vs. CBF 2021 -->
+  <!-- OJCSYS 2022 Robust Safe Flight SE(3) -->
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <td style="padding:20px;width:30%;vertical-align:middle;text-align: center;">
+        <img src='images/hj_vs_cbf_2021/geometric_connection.png' width="220">
+        <p style="text-align: center;">safe set characterization</p>
+      </td>
+
+      <td style="padding:20px;width:80%;vertical-align:middle">
+        <a href="https://thaipduong.github.io/refgovham/">
+          <papertitle>Comparison between safety methods control barrier function vs. reachability analysis
+          </papertitle>
+        </a>
+        <br>
+        <strong>Zhichao Li</strong>
+        <br>
+        <!-- <a href="https://thaipduong.github.io/refgovham/">video</a> / -->
+        <a href="https://arxiv.org/abs/2106.13176">arXiv</a>
+        
+        <p>This report aims to compare two methods for safe control: control barrier function and Hamilton-Jacobi reachability analysis. 
+          We will consider the difference with a focus on the following aspects: generality of system dynamics, difficulty of construction and computation cost. 
+          A standard Dubins car model will be evaluated numerically to make the comparison more concrete. 
+        </p>
+      </td>
+      
+    </tbody>
+  </table>
     
     <!-- RSS 2020 Attempt -->
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
       <tbody>
         <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
           <td style="padding:20px;width:30%;vertical-align:top">
-            <img src='images/safenav/racecar_governor.png' width="220">
+            <img src='images/rss20/racecar_governor.png' width="220">
             <video width="220" muted autoplay loop>
-              <source src="images/safenav/safenav.mp4" type="video/mp4">
+              <source src="images/rss20/rss_hardware_demo.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </td>
@@ -296,86 +326,8 @@
         </tr>
       </tbody>
     </table>    
+   
 
-
-  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-      <td style="padding:20px;width:30%;vertical-align:top">
-        <video width="220" muted autoplay loop>
-          <source src="images/sbkm/sbkm_mapping.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-        <video width="220" muted autoplay loop>
-          <source src="images/sbkm/sbkm_vid3.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-        <video width="220" muted autoplay loop>
-          <source src="images/sbkm/sbkm_map.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </td>
-      <td style="padding:20px;width:80%;vertical-align:middle">
-        <a href="https://thaipduong.github.io/sbkm/">
-          <papertitle>Autonomous Navigation in Unknown Environments with Sparse <i style="color:green">Bayesian</i>
-            Kernel-based Occupancy Mapping</papertitle>
-        </a>
-        <br>
-        <strong>Thai Duong</strong>,
-        <a href="https://yip.eng.ucsd.edu/">Michael Yip</a>,
-        <a href="https://natanaso.github.io/">Nikolay Atanasov</a>
-        <br>
-        <em>Accepted to IEEE Transactions on Robotics (T-RO)</em>, 2022
-        <br>
-        <a href="https://thaipduong.github.io/sbkm/">website</a> /
-        <a href="https://youtu.be/rJ5N3jJlrGE">video</a> /
-        <a href="https://arxiv.org/abs/2009.07207">arXiv</a>
-        <p></p>
-        <p>This paper focuses on online occupancy mapping and real-time collision checking onboard an autonomous robot
-          navigating in a large unknown environment. We develop a probabilistic formulation based on Relevance Vector
-          Machines, allowing probabilistic occupancy classification and supporting autonomous navigation. We provide an
-          online training algorithm, updating the sparse Bayesian map incrementally from streaming range data, and an
-          efficient collision-checking method for general curves, representing potential robot trajectories.</p>
-        <img src='images/sbkm/demo.gif' width="550">
-      </td>
-      </tr>
-
-      <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
-        <td style="padding:20px;width:30%;vertical-align:top">
-          <video width="220" muted autoplay loop>
-            <source src="images/skm/skm_vid3.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video width="220" muted autoplay loop>
-            <source src="images/skm/skm_map3.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <a href="https://thaipduong.github.io/kernelbasedmap/">
-            <papertitle>Autonomous Navigation in Unknown Environments using Sparse Kernel-based Occupancy Mapping
-            </papertitle>
-          </a>
-          <br>
-          <strong>Thai Duong</strong>,
-          <a href="https://www.ucsdarclab.com/people">Nikhil Das</a>,
-          <a href="https://yip.eng.ucsd.edu/">Michael Yip</a>,
-          <a href="https://natanaso.github.io/">Nikolay Atanasov</a>
-          <br>
-          <em>International Conference on Robotics and Automation (ICRA)</em>, 2020
-          <br>
-          <a href="https://thaipduong.github.io/kernelbasedmap/">website</a> /
-          <a href="https://youtu.be/FY_qDmXIaQE">video</a> /
-          <a href="https://arxiv.org/abs/2002.01921">arXiv</a>
-          <p></p>
-          <p>We propose a new map representation, in which occupied and free space are separated by the decision
-            boundary of a kernel perceptron classifier. We develop an online training algorithm that maintains a very
-            sparse set of support vectors to represent obstacle boundaries in configuration space. We also derive
-            conditions that allow complete (without sampling) collision-checking for piecewise-linear and
-            piecewise-polynomial robot trajectories.</p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
   <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
       <tr>
