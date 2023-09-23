@@ -165,7 +165,7 @@
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
       <tbody>
         <td style="padding:5px;width:30%;vertical-align:middle;text-align: center;">
-          <img src='images/automatica23/ot30ICRA92.png' width="220">
+          <img src='images/automatica2023/ot30ICRA92.png' width="220">
           <p style="text-align: center;">mobile robot with omnidirectional wheels</p>
         </td>
   
@@ -228,7 +228,7 @@
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
       <tbody>
         <td style="padding:20px;width:30%;vertical-align:top">
-          <img src='images/refgovham/gif/demo_forest.gif' width="220">
+          <img src='images/l4dc2022/demo_forest.gif' width="220">
           <p style="text-align: center;">hexarotor flying through forest</p>
         </td>
   
@@ -272,12 +272,14 @@
       </td>
 
       <td style="padding:20px;width:80%;vertical-align:middle">
-        <a href="https://thaipduong.github.io/refgovham/">
+        <a href="https://arxiv.org/abs/2106.13176">
           <papertitle>Comparison between safety methods control barrier function vs. reachability analysis
           </papertitle>
         </a>
         <br>
         <strong>Zhichao Li</strong>
+        <br>
+        <em>ArXiv</em>, 2021
         <br>
         <!-- <a href="https://thaipduong.github.io/refgovham/">video</a> / -->
         <a href="https://arxiv.org/abs/2106.13176">arXiv</a>
@@ -296,10 +298,10 @@
       <tbody>
         <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
           <td style="padding:20px;width:30%;vertical-align:top">
-            <img src='images/rss20/racecar_governor.png' width="220">
+            <img src='images/rss2020/racecar_governor.png' width="220">
             <video width="220" muted autoplay loop>
-              <source src="images/rss20/rss_hardware_demo.mp4" type="video/mp4">
-              Your browser does not support the video tag.
+              <source src="images/rss2020/rss_hardware_demo.mp4" type="video/mp4">
+              <!-- Your browser does not support the video tag. -->
             </video>
           </td>
           <td style="padding:20px;width:75%;vertical-align:middle">
@@ -324,6 +326,55 @@
               and its application to autonomous robot navigation in unknown environments.</p>
           </td>
         </tr>
+      </tbody>
+    </table>    
+
+      <!-- ICRA 2020  -->
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+      <tbody>
+        <tr>
+          <td style="padding:20px;width:30%;vertical-align:top">
+            <img src='images/icra2020/traj_Euclidean.png' width="110">
+            <img src='images/icra2020/traj_SDDM.png' width="110">
+            <img src='images/icra2020/digest_fig.png' width="220">
+            <img src='images/icra2020/norm_2D.gif' width="220">
+
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://zhl355.github.io/ICRA2020_RG_SDDM/">
+              <papertitle>Fast and Safe Path-Following Control using a State-Dependent Directional Metric</papertitle>
+            </a>
+            <br>
+            <strong>Zhichao Li</strong>,            
+            <a href="https://omurarslan.github.io/">Omur Arslan</a>,
+            <a href="https://natanaso.github.io/">Nikolay Atanasov</a>
+            <br>
+            <em>International Conference on Robotics and Automation </em>, 2020
+            <br>
+            <a href="https://zhl355.github.io/ICRA2020_RG_SDDM/">website</a> /
+            <a href="https://www.youtube.com/watch?v=PznCa4dmoT0&t=1s&ab_channel=archive-zhl355account">video</a> /            
+            <a href="https://github.com/zhl355/ICRA2020_RG_SDDM/tree/code">code</a> /          
+            <a href="https://arxiv.org/pdf/2002.02038.pdf">arXiv</a>
+            <p></p>
+            <p>This paper considers the problem of fast and safe autonomous navigation in partially known environments. 
+              Our main contribution is a control policy design based on ellipsoidal trajectory bounds obtained from a quadratic state-dependent distance metric. 
+              The new metric leads to system behavior that is adapted to the local environment geometry, 
+              carefully considering medial obstacles while paying less attention to lateral ones. 
+              The resulting controller is able to navigate complex environments faster than common Euclidean-norm and Lyapunov-function-based designs, 
+              while retaining stability and collision avoidance guarantees.</p>
+
+              <!-- <video width="240" muted autoplay loop>
+                <source src="images/icra2020/Li_SafeControl_ICRA20.mp4" type="video/mp4">
+              </video> -->
+              <div style="text-align: center;">
+                <video width="420" muted autoplay loop>
+                  <source src="images/icra2020/complex_corridor2D_ellipse3X_yuv420p.mp4" type="video/mp4">
+                </video>
+              </div>              
+              <!-- <video width="400" muted autoplay loop>
+                <source src="images/icra2020/complex_corridor2D_ellipse3X_yuv420p.mp4" type="video/mp4">
+              </video>               -->
+          </td>
       </tbody>
     </table>    
    
